@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        APP_PORT = "8080"
+        APP_PORT = "8300"
         OUT_DIR = "out"
     }
 
