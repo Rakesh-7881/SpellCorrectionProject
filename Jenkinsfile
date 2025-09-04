@@ -9,7 +9,8 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git 'https://github.com/Rakesh-7881/SpellCorrectionProject.git'
+                git branch: 'main', url: 'https://github.com/Rakesh-7881/SpellCorrectionProject.git'
+
             }
         }
 
