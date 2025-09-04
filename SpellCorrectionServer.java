@@ -8,7 +8,7 @@ import java.net.InetSocketAddress;
 
 public class SpellCorrectionServer {
     public static void main(String[] args) throws IOException {
-        int port = 8080; // Browser will use http://localhost:8080
+        int port = 8300; // Browser will use http://localhost:8300
         HttpServer server = HttpServer.create(new InetSocketAddress(port), 0);
         server.createContext("/", new SpellCorrectionHandler());
         server.setExecutor(null);
