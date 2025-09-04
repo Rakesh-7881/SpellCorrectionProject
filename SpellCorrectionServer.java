@@ -39,6 +39,8 @@ public class SpellCorrectionServer {
             // Simple logic (extend later with dictionary)
             if (word.equals("helo")) return "hello";
             if (word.equals("jav")) return "java";
+            if (word.equals("jekins")) return "jenkins";
+            if (word.equals("wrds")) return "words";
             return word + " (no correction found)";
         }
     }
